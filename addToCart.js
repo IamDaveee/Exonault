@@ -77,7 +77,7 @@ function purchaseClicked(){
         }
         var cartRowsLength=cartRows.length
         if (cartRowsLength===1){
-            fetch("https://iamdaveee.github.io/server/server.js/create-checkout-session", {
+            fetch("https://iamdaveee.github.io/server//create-checkout-session", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -104,7 +104,7 @@ function purchaseClicked(){
                 })
         }
         if (cartRowsLength===2){
-            fetch("https://iamdaveee.github.io/server/server.js/create-checkout-session", {
+            fetch("https://iamdaveee.github.io/server//create-checkout-session", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
